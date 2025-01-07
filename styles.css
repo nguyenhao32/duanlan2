@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  .header .logo {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+  }
+  
+  .nav ul li {
+    margin-left: 20px;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav ul li a:hover {
+    background-color: #ff4081;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('https://scontent.fsgn21-1.fna.fbcdn.net/v/t39.30808-6/470198106_937534228473503_8685513521009762515_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeEqFt7zYINHLI4zZgL9IW1-XsdF9hLGhh5ex0X2EsaGHh_-d6qBzjwelmxNQfVKlntpXZAl0xlADzfxja9jhcY5&_nc_ohc=FlcBbbT8COoQ7kNvgEuzX-1&_nc_oc=AdjTVNuzHfbg-Xhq2XpbPs1fThT41v3mckA-xZ2sl9HycJoKGCM7AQLfuVZs5nPBShs&_nc_zt=23&_nc_ht=scontent.fsgn21-1.fna&_nc_gid=AcpulsTNqiNCEGO6U3tunEf&oh=00_AYCqw9SykfSz6sfnHWq3opgfnJlfirHNAGoMTmHwDy6mcw&oe=6782C5AB') no-repeat center center/cover;
+    color: hsl(0, 47%, 51%);
+    text-align: center;
+    padding: 5rem 0;
+  }
+  
+  .hero h2 {
+    background-color: #fff; left: 400px ;right: 400px;
+    font-size: 2.5rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem; font-family:'impac'
+  
+  }
+  
+  .hero .btn {
+    display: inline-block;
+    background-color: #000000;
+    color: #fbfbfb;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .hero .btn:hover {
+    background-color: #f3f3f3;
+    transform: scale(1.1);
+  }
+  
+  /* About Section */
+  .about {
+    text-align: center;
+    padding: 3rem 0;
+  }
+  
+  .about h2  {
+    margin-bottom: 1rem; 
+  }
+  
+  .about p {
+    font-size: 1rem;
+    color: #bc8282;
+  }
+  
+  /* Shop Section */
+  .shop {
+    padding: 3rem 0;
+    text-align: center;
+  }
+  
+  .shop h2 {
+    margin-bottom: 2rem;
+  }
+  
+  .product-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .product {
+    text-align: center;
+    flex: 1;
+    transition: transform 0.3s ease, box-shadow 0}
+    img {
+      background-color:#fdfdfd
+    }
+p {
+  font-family: 'Times New Roman', Times, serif;color: #ffffff;
+}
